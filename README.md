@@ -1,4 +1,4 @@
-# Mission 3 - AI Insurance Chatbot
+# AI Insurance Chatbot
 
 This project is designed as an excercise in deploying a react app through docker and to create an AI chatbot for the purposes of customer use.
 
