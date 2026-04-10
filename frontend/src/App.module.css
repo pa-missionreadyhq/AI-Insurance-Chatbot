@@ -1,0 +1,120 @@
+.document
+{
+    background-color: rgb(102, 78, 52);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.policyAssistantTool
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(58, 43, 15);
+    padding: 20px;
+    border-radius: 15px;
+    width: 75vw;
+    height: 90vh;
+}
+
+.title
+{
+    font-size: 50px;
+    color: rgb(255, 174, 0);
+    margin-bottom: 40px;
+}
+
+.job
+{
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 50%;
+    background-color:rgb(172, 194, 255);
+    padding: 10px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Getting rid of the default input box styling */
+    border: none;
+    outline: none;
+
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.conversationHistory
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(196, 196, 196);
+    padding: 20px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    overflow-y: auto;
+    height: 75%;
+    width: 60%;
+}
+
+.message
+{
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 80%;
+    word-break: break-word;
+}
+
+.userMessage
+{
+    color: rgb(0, 0, 0);
+    background-color: rgba(158, 158, 158, 0.534);
+    text-align: left;
+}
+
+.aiMessage
+{
+    color: rgb(0, 126, 175);
+    background-color: rgba(158, 158, 158, 0.534);
+    text-align: right;
+    align-self: flex-end;
+}
+
+.loading
+{
+    margin-top: 10px;
+    font-style: italic;
+    color: rgb(12, 12, 12);
+}
+
+.input
+{
+    width: 50%;
+    background-color: grey;
+    padding: 10px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(49, 49, 49);
+    
+    /* Getting rid of default input type stuff */
+    border: none;
+    outline: none;
+
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.sendInput
+{
+    margin-top: 20px;
+    width: 20%;
+    padding: 7.5px;
+
+}
